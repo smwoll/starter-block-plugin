@@ -70,6 +70,7 @@ class Starter_Block_Plugin_Block {
     /**
      * Register the block with WordPress. 
      * Always dynamic, uses template.php in the same directory as the block.json file.
+	 * OPINION: all blocks are dynamic.
      * 
      * @return void
      */

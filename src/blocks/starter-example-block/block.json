@@ -22,6 +22,7 @@
 	},
 	"textdomain": "starter-block-plugin",
 	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
     "viewScript": "file:./view.js",
 	"style": "file:./style-index.css"
 }
