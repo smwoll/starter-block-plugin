@@ -1,0 +1,25 @@
+{
+  "name": "starter-block-plugin",
+  "version": "1.0.0",
+  "description": "A starting setup for a WordPress plugin using WP Scripts to compile block assets.",
+  "main": "index.js",
+  "scripts": {
+    "start": "wp-scripts start --webpack-copy-php",
+    "build": "wp-scripts build --webpack-copy-php"
+  },
+  "keywords": [
+    "blocks",
+    "wordpress"
+  ],
+  "author": "sky",
+  "prettier": "@wordpress/prettier-config",
+  "browserslist": [
+    "extends @wordpress/browserslist-config"
+  ],
+  "devDependencies": {
+    "@wordpress/browserslist-config": "^5.23.0",
+    "@wordpress/eslint-plugin": "^15.0.0",
+    "@wordpress/prettier-config": "^2.23.0",
+    "@wordpress/scripts": "26.11.0"
+  }
+}

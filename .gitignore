@@ -1,0 +1,21 @@
+node_modules/
+index.js.map
+build
+vendor
+.sass-cache/
+
+*.swp
+*.js.map
+*.css.map
+*.dev.js
+*.dev.css
+
+rev-manifest.json
+
+# Hide Editor Specific Configs
+# VS CODE
+*.code-workspace
+.vscode
+
+# Must include local locks.
+!package-lock.json

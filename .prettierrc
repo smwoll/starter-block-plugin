@@ -1,0 +1,6 @@
+{
+  "extends": [ "@wordpress/prettier-config" ],
+  "trailingComma": "all",
+  "arrowParens": "always",
+  "singleQuote": true
+}
